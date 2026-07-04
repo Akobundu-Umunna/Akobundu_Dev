@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =========================================
+       BASIC SEO META
+  ========================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Akobundu Umunna is a frontend developer specializing in Tailwind, TypeScript, accessibility, and high-performance web experiences."
+  />
+  <meta
+    name="keywords"
+    content="frontend developer, Tailwind developer, portfolio, Akobundu Umunna, JavaScript developer, TypeScript developer"
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <title>Akobundu Umunna | Frontend Developer</title>
+
+  <!-- =========================================
+       OPEN GRAPH / TWITTER
+  ========================================== -->
+  <meta property="og:title" content="Akobundu Umunna | Frontend Developer" />
+  <meta
+    property="og:description"
+    content="Frontend developer building fast, accessible, and beautiful web experiences."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://akobundu.vercel.app" />
+  <meta
+    property="og:image"
+    content="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80"
+  />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Akobundu Umunna | Frontend Developer" />
+  <meta
+    name="twitter:description"
+    content="Frontend developer building fast, accessible, and beautiful web experiences."
+  />
+
+  <!-- =========================================
+       GOOGLE FONTS
+  ========================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- =========================================
+       BOOTSTRAP ICONS
+  ========================================== -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+  <!-- =========================================
+       JSON-LD STRUCTURED DATA
+  ========================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Akobundu Umunna",
+    "jobTitle": "Frontend Developer",
+    "url": "https://akobundu.vercel.app",
+    "image": "https://akobundu.vercel.app/img/akobundu.png",
+    "description": "Akobundu Umunna is a Frontend developer based in Owerri, Imo State, Nigeria. He is a 100 level Software Engineering Student at the Federal University of Technology Owerri (FUTO). He is from Imo State and enjoys creating scalable and accessible web applications.",
+    "AlsoKnownAs" :{
+      "birthName" : "Umunna Ozioma Akobundu",
+      "popularName" : "AK"
+    }
+    "studentOf": {
+      "@type": "EducationalOrganisation",
+      "name": "Federal University of Technology Owerri"
+    },
+    "image": "https://akobundu.vercel.app/img/akobundu.png"
+    "sameAs": [
+      "https://facebook.com/akobundu.umunna"
+    ]
+  }
+  </script>
+
+  <!-- =========================================
+       CRITICAL CSS
+  ========================================== -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================
+       NAVBAR
+  ========================================== -->
+  <nav class="navbar" aria-label="Primary Navigation">
+    <div class="container nav-wrapper ">
+
+      <!-- Brand Name -->
+      <a href="#" class="brand">Akobundu</a>
+
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+        <!-- Dark Mode Toggle -->
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Toggle dark mode"
+        >
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- =========================================
+       HERO SECTION
+  ========================================== -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <!-- Hero Text -->
+      <div class="hero-text">
+        <h1>
+          Hi, I’m Akobundu — Frontend Developer
+        </h1>
+
+        <p>
+          I build fast, accessible, and beautiful web experiences with
+          Tailwind & TypeScript.
+        </p>
+
+        <div class="cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <i class="bi bi-grid-fill"></i>
+            View My Work
+          </a>
+
+          <a href="#contact" class="btn btn-secondary">
+            <i class="bi bi-briefcase-fill"></i>
+            Hire Me
+          </a>
+        </div>
+      </div>
+
+      <div class="profile-image-wrappe">
+        <div class="profile-inner">
+          <img src="/img/akobundu.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================
+       PROJECTS SECTION
+  ========================================== -->
+  <section id="projects">
+    <div class="container">
+
+      <h2 class="section-title">
+        <i class="bi bi-window-stack"></i>
+        Featured Projects
+      </h2>
+
+      <p class="section-subtitle">
+        Selected frontend projects focused on performance,
+        accessibility, responsive design, and modern user experiences.
+      </p>
+
+      <div class="grid projects-grid">
+
+        <!-- PROJECT CARD -->
+        <article class="card">
+          <div class="project-image">
+            <img src="/img/ExpenseTracker.png" alt="">
+          </div>
+
+          <div class="card-content">
+            <h3>Expense Tracker</h3>
+
+            <p>
+              Responsive admin dashboard with analytics, product management,
+              and optimized performance.
+            </p>
+
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Chart.js</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#">
+                <i class="bi bi-box-arrow-up-right"></i>
+                Live Demo
+              </a>
+
+              <a href="#">
+                <i class="bi bi-github"></i>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD -->
+        <article class="card">
+          <div class="project-image">
+            <img src="/img/ssne.png" alt="">
+          </div>
+
+          <div class="card-content">
+            <h3>Creative Agency Website</h3>
+
+            <p>
+              High-converting landing page built with modern UI,
+              animations, and SEO-first architecture.
+            </p>
+
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">SEO</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#">
+                <i class="bi bi-box-arrow-up-right"></i>
+                Live Demo
+              </a>
+
+              <a href="#">
+                <i class="bi bi-github"></i>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD -->
+        <article class="card">
+          <div class="project-image">
+            <img src="/img/birthcare.png" alt="">
+          </div>
+          <div class="card-content">
+            <h3>Portfolio Platform</h3>
+
+            <p>
+              Minimal portfolio system designed for speed, accessibility,
+              and premium aesthetics.
+            </p>
+
+            <div class="tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">Tailwind</span>
+              <span class="tag">Accessibility</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#">
+                <i class="bi bi-box-arrow-up-right"></i>
+                Live Demo
+              </a>
+
+              <a href="#">
+                <i class="bi bi-github"></i>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       SKILLS SECTION
+  ========================================== -->
+  <section id="skills">
+    <div class="container">
+
+      <h2 class="section-title">
+        <i class="bi bi-lightning-charge-fill"></i>
+        Skills & Technologies
+      </h2>
+
+      <p class="section-subtitle">
+        Frontend technologies and tools I use to create scalable,
+        performant, and accessible applications.
+      </p>
+
+      <div class="grid skills-grid">
+
+        <!-- CORE -->
+        <div class="skill-box">
+          <h3>Core</h3>
+
+          <div class="skill-item">
+            <i class="bi bi-filetype-js"></i>
+            JavaScript
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-filetype-tsx"></i>
+            TypeScript
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-database"></i>
+            Supabse
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-phone"></i>
+            Responsive Design
+          </div>
+        </div>
+
+        <!-- STYLING -->
+        <div class="skill-box">
+          <h3>Styling</h3>
+
+          <div class="skill-item">
+            <i class="bi bi-palette-fill"></i>
+            CSS3
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-bootstrap"></i>
+            Bootstrap Icons
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-layout-text-window"></i>
+            Tailwind
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-brush-fill"></i>
+            Figma
+          </div>
+        </div>
+
+        <!-- TOOLS -->
+        <div class="skill-box">
+          <h3>Tools</h3>
+
+          <div class="skill-item">
+            <i class="bi bi-github"></i>
+            Git & GitHub
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-speedometer2"></i>
+            Lighthouse
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-search"></i>
+            SEO Optimization
+          </div>
+
+          <div class="skill-item">
+            <i class="bi bi-terminal-fill"></i>
+            VS Code
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       ABOUT SECTION
+  ========================================== -->
+  <section id="about">
+    <div class="container">
+
+      <h2 class="section-title">
+        <i class="bi bi-person-circle"></i>
+        About Me
+      </h2>
+
+      <div class="about-box">
+        <p>
+          I’m Akobundu Umunna aka <b>AK</b>, a frontend developer passionate about building
+          elegant digital experiences that are fast, accessible, and
+          user-focused. I enjoy transforming complex ideas into clean,
+          intuitive interfaces using modern web technologies like Tailwind,
+          TypeScript, and JavaScript.
+        </p>
+
+        <p>
+          My workflow emphasizes performance optimization, responsive
+          design, accessibility best practices, and maintainable code
+          architecture. I believe great products should feel smooth,
+          lightweight, and visually refined across every device.
+        </p>
+
+        <p itemprop="description">
+         Im currently a 100 level student studying Software Engineering at Federal University of Technology Owerri. Owerri, Imo State, Nigeris
+
+        I grew up in Sango Ota, Ogun State and I’ve always been curious about how things work — that curiosity led me into tech. When I’m not coding or studying, you’ll find me watching movies, playing games, and learning something new.
+
+        I’m building my career from while staying connected to the global dev community online. Owerri
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       CONTACT SECTION
+  ========================================== -->
+  <section id="contact">
+    <div class="container">
+
+      <h2 class="section-title">
+        <i class="bi bi-envelope-paper-fill"></i>
+        Contact
+      </h2>
+
+      <p class="section-subtitle">
+        Interested in working together, hiring, or collaborating on a
+        project? Let’s connect.
+      </p>
+
+      <div class="contact-grid">
+
+        <!-- CONTACT INFO -->
+        <div class="contact-card">
+          <h3>Get In Touch</h3>
+
+          <div class="contact-links">
+
+            <a href="mailto:hello@ozioma.dev">
+              <i class="bi bi-envelope-fill"></i>
+              info@akobundu.online
+            </a>
+
+            <a href="#">
+              <i class="bi bi-linkedin"></i>
+              LinkedIn
+            </a>
+
+            <a href="#">
+              <i class="bi bi-github"></i>
+              GitHub
+            </a>
+
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form">
+
+          <form>
+            <div>
+              <label for="name">Name</label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                aria-required="true"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+                aria-required="true"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="message">Message</label>
+
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tell me about your project..."
+                aria-required="true"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+  <footer>
+    <div class="container footer-content">
+
+      <p>
+        © 2026 Akobundu. All rights reserved.
+      </p>
+
+      <a href="#">
+        <i class="bi bi-download"></i>
+        Download Resume
+      </a>
+
+      <div class="footer-icons">
+        <a href="#" aria-label="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href="#" aria-label="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a href="#" aria-label="Twitter">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+         <a href="#" aria-label="Facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script defer src="script.js"></script>
+</body>
+</html>
